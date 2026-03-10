@@ -14,26 +14,27 @@
 }
 .p-4.rounded-lg {
   border: 1px solid var(--border);
-  background: #f8fbff;
+  background: #37353e;
   transition: background 0.3s;
 }
 .p-4.rounded-lg:hover {
-  background: #e0eaff;
+  background: rgb(60, 57, 73);
 }
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: #7f8caa;
-  background-color: #333446;
-  --accent: #333446;
+  color: #d3dad9;
+  background-color: #37353e;
+  --accent: #37353e;
   --accent-light: #e0eaff;
-  --accent-dark: #333446;
-  --bg-gradient: linear-gradient(135deg, #e0eaff 0%, #f4f6fb 100%);
-  --card-bg: #333446;
-  --card-bg-dark: #232946cc;
-  --border: #d1d5db;
+  --accent-dark: #44444e;
+  --text-dark: #d3dad9;
+  --bg-gradient: linear-gradient(135deg, #29282e 100%, #44444e 0%);
+  --card-bg: #44444e;
+  --card-bg-dark: #44444e;
+  --border: #d3dad9;
   --shadow: 0 4px 24px 0 rgba(79, 140, 255, 0.08);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -56,12 +57,12 @@ h1 {
 }
 a {
   font-weight: 500;
-  color: var(--accent);
+  color: #d3dad9;
   text-decoration: underline;
   transition: color 0.2s;
 }
 a:hover {
-  color: #232946;
+  color: #d3dad9;
 }
 
 body {
@@ -123,7 +124,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #37353e;
   cursor: pointer;
   transition: border-color 0.25s;
 }
