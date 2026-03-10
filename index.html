@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vite-project</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div
+        class="grid grid-cols-3 gap-6 items-center mx-auto p-6 w-full h-screen"
+      >
+        <div
+          class="rounded-lg bg-white py-10 px-6 shadow-md outline outline-black/5 dark:bg-gray-800 dark:outline-white/10 h-[calc(90vh-2rem)] flex items-center justify-center"
+        >
+          <div class="flex flex-col justify-center items-center gap-4">
+            <img
+              src="public/face.jpg"
+              alt="face"
+              class="h-35 w-35 flex-none rounded-lg bg-gray-100 object-cover dark:bg-gray-700 mx-auto object-top"
+            />
+            <h2 class="text-2xl font-semibold tracking-tight">
+              Rian Alfazri Khoirulloh
+            </h2>
+            <h3>Mobile Developer - Front-end Developer</h3>
+            <hr class="w-full border-[#D3DAD9]" />
+            <div
+              class="contact-info text-start justify-start flex flex-col gap-1 w-full px-4"
+            >
+              <div class="flex items-center gap-2">
+                <img
+                  src="public/email.png"
+                  alt="Email Icon"
+                  class="icon w-[40px]"
+                />
+                <p class="text-sm">Email: rian.alfazri96@gmail.com</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img
+                  src="public/call.png"
+                  alt="Phone Icon"
+                  class="icon w-[40px]"
+                />
+                <p class="text-sm">Phone: +62 896-6367-0264</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img
+                  src="public/location.png"
+                  alt="Location Icon"
+                  class="icon w-[40px]"
+                />
+                <p class="text-sm">
+                  Location: Rancaekek Permai Blok C2 No. 38, Rancekek,
+                  Kab.Bandung, Indonesia, 40394
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img
+                  src="public/edu.png"
+                  alt="Education Icon"
+                  class="icon w-[40px]"
+                />
+                <p class="text-sm">
+                  STMIK AMIK Bandung - Informatics Engineering
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img
+                  src="public/linkedin.png"
+                  alt="Linkedin Icon"
+                  class="icon w-[40px]"
+                />
+                <p class="text-sm">
+                  LinkedIn:
+                  <a
+                    href="https://www.linkedin.com/in/rian-alfazri-khoirulloh-6237762b5?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank"
+                    class="text-sm hover:text-blue-500 dark:hover:text-blue-400"
+                  >
+                    Rian Alfazri Khoirulloh
+                  </a>
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img
+                  src="public/web.png"
+                  alt="Github Icon"
+                  class="icon w-[40px]"
+                />
+                <p class="text-sm">
+                  GitHub:
+                  <a
+                    href="https://github.com/drissha"
+                    target="_blank"
+                    class="text-sm hover:text-blue-500 dark:hover:text-blue-400"
+                  >
+                    https://github.com/drissha
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-span-2 rounded-lg bg-white py-10 px-6 shadow-md outline outline-black/5 dark:bg-gray-800 dark:outline-white/10 h-[calc(90vh-2rem)] overflow-y-auto"
+        >
+          <h1 class="text-3xl font-bold tracking-tight mb-2">About Me</h1>
+          <hr class="w-80 border-[#D3DAD9] mb-4" />
+          <p class="mt-4">
+            Hello! I'm Rian Alfazri Khoirulloh, Informatics Engineering graduate
+            from STMIK “AMIKBANDUNG” with a strong interest in building
+            user-facing applications. I have experience developing mobile
+            applications with Flutter and building web interfaces using
+            React.js, Next.js, and Tailwind CSS. I am used to working in teams,
+            adapting to new technologies, and learning continuously
+          </p>
+
+          <!-- Skills Section -->
+          <div class="mt-8">
+            <h2 class="text-2xl font-semibold tracking-tight mb-2">Skills</h2>
+            <hr class="w-25 border-[#D3DAD9] mb-4" />
+            <ul class="list-disc list-inside grid grid-cols-2 gap-x-8">
+              <li>Flutter</li>
+              <li>JavaScript</li>
+              <li>HTML5, CSS3</li>
+              <li>TypeScript</li>
+              <li>Git, GitHub</li>
+              <li>React.js</li>
+              <li>Next.js</li>
+              <li>Tailwind CSS, Bootstrap</li>
+            </ul>
+          </div>
+
+          <!-- Projects Section -->
+          <div class="mt-8">
+            <h2 class="text-2xl font-semibold tracking-tight mb-2">Projects</h2>
+            <hr class="w-25 border-[#D3DAD9] mb-4" />
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div
+                class="flex flex-col justify-center p-4 rounded-lg bg-gray-50 dark:bg-gray-700 shadow"
+              >
+                <h3 class="font-bold">Ruang Pajak App - Mobile Developer</h3>
+                <p class="text-sm">
+                  Ruang Pajak is an Android application focused on tax
+                  consultation, designed to help users access tax-related
+                  guidance through a mobile experience. As the mobile developer,
+                  I built application screens and integrated backend services by
+                  consuming REST APIs, ensuring the app could display accurate
+                  data and support key user flows reliably.
+                </p>
+              </div>
+              <div
+                class="flex flex-col justify-center p-4 rounded-lg bg-gray-50 dark:bg-gray-700 shadow"
+              >
+                <h3 class="font-bold">
+                  Wedding Invitation Web Builder - Frontend Developer
+                </h3>
+                <p class="text-sm">
+                  This project is a web-based builder (dashboard + theme-based
+                  landing pages) created to sell and manage wedding invitation
+                  websites for clients. As the frontend developer, I developed
+                  the dashboard interface and implemented theme/landing page
+                  components, focusing on usability and visual consistency so
+                  clients could manage content smoothly and publish a polished
+                  invitation site.
+                </p>
+              </div>
+              <div
+                class="flex flex-col justify-center p-4 rounded-lg bg-gray-50 dark:bg-gray-700 shadow"
+              >
+                <h3 class="font-bold">Simpatas Tasik - Android Developer</h3>
+                <p class="text-sm">
+                  Simpatas Tasik is a market price monitoring application for
+                  the Tasikmalaya region. In this project, I worked as an
+                  Android developer, implementing features that present market
+                  price information in a clear and structured interface. This
+                  helped stakeholders access monitoring data more easily via
+                  mobile and supported consistent updates for regional-scale
+                  tracking.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Related Experience -->
+          <div class="mt-8">
+            <h2 class="text-2xl font-semibold tracking-tight mb-2">
+              Related Experience
+            </h2>
+            <hr class="w-25 border-[#D3DAD9] mb-4" />
+
+            <ul class="list-disc list-inside space-y-3">
+              <li>
+                <b>PT Regalia Insight</b> — <i>Mobile Front-end Developer</i
+                ><br />
+                <span class="text-sm">Nov 2023 - Mar 2024</span><br />
+                <span class="text-sm">
+                  Developed Ruang Pajak mobile application using Flutter, Dart,
+                  and GetX with Material UI. Built Wedding Invitation Web
+                  Builder and Regalia Website using Laravel. Worked on frontend
+                  and mobile applications using React, Next.js, Bootstrap,
+                  Flutter, and GetX.
+                </span>
+              </li>
+
+              <li>
+                <b>MIKTI</b> — <i>Mobile Developer</i><br />
+                <span class="text-sm">Feb 2024 - Jul 2024</span><br />
+                <span class="text-sm">
+                  Developed Salah Reminder mobile application using Flutter,
+                  Dart, and GetX. Implemented mobile application features and
+                  maintained Flutter codebase.
+                </span>
+              </li>
+
+              <li>
+                <b>Freelance</b> — <i>Mobile Front-end Developer</i><br />
+                <span class="text-sm">Dec 2024 - Jan 2025</span><br />
+                <span class="text-sm">
+                  Developed frontend and mobile applications using React,
+                  Next.js, Bootstrap, Flutter, and GetX. Built Pekalongan
+                  website using Laravel and Bootstrap and contributed to the
+                  Simpatas Tasik mobile application.
+                </span>
+              </li>
+
+              <li>
+                <b>Rubin ID</b> — <i>Front-end Developer</i><br />
+                <span class="text-sm">Oct 2024 - Mar 2025</span><br />
+                <span class="text-sm">
+                  Developed frontend for UmrohApp using CodeIgniter 3 and
+                  implemented Lobby Rubin web interface using Next.js and
+                  Tailwind CSS.
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Other Section -->
+          <div class="mt-8">
+            <h2 class="text-2xl font-semibold tracking-tight mb-2">Other</h2>
+            <hr class="w-25 border-[#D3DAD9] mb-4" />
+            <ul class="list-disc list-inside">
+              <li><b>Hobbies:</b> Play Game, Watch Movie, Watch Anime.</li>
+
+              <li>
+                <b>Languages:</b> English (intermediate), Indonesian (native).
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
